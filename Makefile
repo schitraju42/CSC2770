@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -pthread
-SRCS = ThreadedMatrixMultiplication.c
+SRCS = ThreadedMatrixMultiply.c
 OBJS = $(SRCS:.c=.o)
-TARGET = ThreadedMatrixMultiplication
+TARGET = ThreadedMatrixMultiply
 
 all: $(TARGET)
 
